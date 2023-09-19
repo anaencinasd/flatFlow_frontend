@@ -1,0 +1,103 @@
+
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+   
+    background:#F9FAFC;
+  }
+  
+  
+
+
+
+:root {
+  --main-general: #111C24; 
+  --main-primary: #CAFC01;
+  --general-substrate: #F9FAFC;
+  
+}
+
+
+
+/* h1{
+
+color: var(--main-general, #111C24);
+
+
+font-family: 'DM Mono', monospace;
+font-size: 5.625rem;
+font-style: normal;
+font-weight: 300;
+line-height: 110%; 
+}
+
+h2{
+  color: var(--main-general, #111C24);
+
+
+font-family: 'DM Mono', monospace;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 300;
+line-height: 4.5rem; 
+}
+
+h3{
+
+  color: var(--main-general, #111C24);
+
+
+font-family: 'DM Mono', monospace;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.5rem; 
+text-transform: uppercase;
+
+}
+p{
+  color: var(--main-general, #111C24);
+
+
+font-family: 'Roboto';
+font-size: 1rem;
+font-style: normal;
+font-weight: 300;
+line-height: 2rem;
+}
+
+#Subline {
+
+color: var(--main-general, #111C24);
+
+font-family: 'Roboto';
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 300;
+line-height: 2.5rem; 
+} */
+
+#root {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* .custom-login-contained-button{
+  margin: 0.5rem !important;
+  color: #CAFC01 !important;
+  background-color: #111C24 !important;
+  font-family: 'DM Mono', monospace !important;
+}
+.custom-login-outlined-button{
+  background-color: transparent;
+  border-color: #111C24 !important;
+  color: #111C24 !important;
+  font-family: 'DM Mono', monospace !important;
+
+} */
