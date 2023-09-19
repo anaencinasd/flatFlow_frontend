@@ -34,7 +34,7 @@ const GenericCard = ({ dataService, id, titleField, descriptionField, link, user
         <Typography  component="div">
           {description}
         </Typography>
-        <Typography>{id_user}</Typography>
+        <Typography>Asignada a: {id_user}</Typography>
       </CardContent>
       <CardActions>
         <Link to={link}>

@@ -11,7 +11,8 @@ import IndexForum from './../../src/Pages/Forum/IndexForum'
 import IndexBalance from './../../src/Pages/Balance/IndexBalance'
 import ShowTask from '../../src/Pages/Tasks/ShowTask';
 import ForumTask from '../../src/Pages/Forum/ShowForum';
-import AddForum from './../../src/Pages/Forum/AddForum'
+import AddForum from './../../src/Pages/Forum/AddForum';
+import IndexAllTasks from './../../src/Pages/Tasks/IndexAllTasks';
 
 
 
@@ -25,6 +26,7 @@ const RouterItem = () => {
                 <Route path='/newthread' element={<AddForum/>}></Route>
                 <Route path='/dashboard' element={<Dashboard/>}></Route>
                 <Route path='/tasks' element={<IndexTask />}></Route>
+                <Route path='/alltasks' element={<IndexAllTasks />}></Route>
                 <Route path='/forum' element={<IndexForum />}></Route>
                 <Route path='/balance' element={<IndexBalance />}></Route>
                 <Route path='/taskdetail/:id' element={<ShowTask />}></Route>

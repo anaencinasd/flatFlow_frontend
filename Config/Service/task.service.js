@@ -4,6 +4,11 @@ class TaskDataService{
     getAll(){
         return http.get("api/task");
     }
+
+    getTasks(){
+        return http.get("api/task/alltasks")
+    }
+    
     get(id){
         return http.get(`api/task/${id}`);
     }
@@ -26,6 +31,8 @@ class TaskDataService{
     finByTitle(title){
         return http.get(`api/task?title=${title}`);
     }
+
+    
 }
 
 export default new TaskDataService();

@@ -18,7 +18,7 @@ class AuthService {
   }
 
   logout() {
-    return http.post("/logout");
+    return http.post("api/logout");
   }
 }
 

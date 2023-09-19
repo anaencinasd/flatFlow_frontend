@@ -11,7 +11,7 @@ function IndexTask() {
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => {
-    TaskDataService.getAll()
+    TaskDataService.getTasks()
       .then((response) => {
         console.log('Datos exportados correctamente', response.data);
         setTasks(response.data.data);
@@ -25,7 +25,7 @@ function IndexTask() {
   return (
     <>
     <Header 
-    title='Tareas pendientes'/>
+    title='Todas las tareas'/>
       <Container sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       {tasks.map((task) => (
         <GenericCard
@@ -46,10 +46,10 @@ function IndexTask() {
         Añadir Nueva Tarea
       </Button>
     </Link>
-    <Link to="/alltasks">
+    <Link to="/tasks">
       <Button variant="contained" color="primary">
         <AddIcon />
-       Ver todas las tareas
+        Ver mis tareas pendientes
       </Button>
     </Link>
       </Container>
