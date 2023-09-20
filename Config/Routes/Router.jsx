@@ -13,6 +13,7 @@ import ShowTask from '../../src/Pages/Tasks/ShowTask';
 import ForumTask from '../../src/Pages/Forum/ShowForum';
 import AddForum from './../../src/Pages/Forum/AddForum';
 import IndexAllTasks from './../../src/Pages/Tasks/IndexAllTasks';
+import CreateGroup from './../../src/Pages/Group/CreateGroup';
 
 
 
@@ -32,6 +33,7 @@ const RouterItem = () => {
                 <Route path='/taskdetail/:id' element={<ShowTask />}></Route>
                 <Route path='/forumdetail/:id' element={<ForumTask />}></Route>
                 <Route path='/registergroup' element={<RegisterGroup />}></Route>
+                <Route path='/newgroup' element={<CreateGroup />}></Route>
 
             </Route>
                 

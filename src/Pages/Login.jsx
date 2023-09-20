@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Container, Typography, TextField, Button, Grid, Paper } from '@mui/material';
+import { Container, Typography, TextField, Button, Grid, Paper, FormControlLabel, Checkbox, Link } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import AuthService from './../../Config/Service/auth.service';
 import Header from '../Components/Atoms/Header';
@@ -57,6 +57,10 @@ function Login() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
+                 <FormControlLabel
+              control={<Checkbox value="remember" color="primary" />}
+              label="Recuérdame"
+            />
                 <Button
                   type="button" 
                   variant="contained"
@@ -74,6 +78,18 @@ function Login() {
                   {error}
                 </Typography>
               )}
+              <Grid container>
+              <Grid item xs>
+                <Link href="#" variant="body2">
+                  ¿Has olvidado la contraseña?
+                </Link>
+              </Grid>
+              <Grid item>
+                <Link href="/register" variant="body2">
+                  {"¿No tienes cuenta? Regístrate"}
+                </Link>
+              </Grid>
+            </Grid>
             </Paper>
           </Grid>
         </Grid>

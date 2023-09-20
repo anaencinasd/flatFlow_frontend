@@ -4,6 +4,9 @@ class UserDataService{
     getAll(){
         return http.get("api/user");
     }
+    getUser (){
+        return http.get('api/user/getuser');
+    }
     get(id){
         return http.get(`api/user/${id}`);
     }

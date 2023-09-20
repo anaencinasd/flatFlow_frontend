@@ -25,6 +25,10 @@ function Navbar() {
     navigate('#')
   }
 
+  const handleGroupOptions =()=>{
+    navigate('#')
+  }
+
   const handleLogout = async () => {
     try {
       await AuthService.logout();
@@ -72,6 +76,7 @@ function Navbar() {
               open={Boolean(anchorEl)}
               onClose={handleCloseMenu}
             >
+              <MenuItem onClick={handleGroupOptions}>Tu grupo</MenuItem>
               <MenuItem onClick={handleConfig}>Configuración</MenuItem>
               <MenuItem onClick={handleLogout}>Cerrar sesión</MenuItem>
               

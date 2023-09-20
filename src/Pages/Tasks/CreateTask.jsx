@@ -10,7 +10,11 @@ function TaskForm() {
   const taskFields = [
     { label: 'Tarea', name: 'title' },
     { label: 'Descripción', name: 'description', type: 'text' },
+    { label: 'Selecciona el grupo donde estableces la tarea', name: 'id_group', type: 'text' },
     { label: '¿A quién se la asignas?', name: 'id_user', type: 'text' },
+    { label: 'Selecciona una categoría', name: 'id_category', type: 'text' },
+    { label: '¿Para cuándo es?', name: 'deadline', type: 'date' },
+    
     
   ];
 
