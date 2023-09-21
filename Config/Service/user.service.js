@@ -29,6 +29,11 @@ class UserDataService{
     finByUsername(username){
         return http.get(`api/user?username=${username}`);
     }
+
+    getGroupsForUser(){
+        return http.get('api/getgroups');
+    }
+
 }
 
 export default new UserDataService();

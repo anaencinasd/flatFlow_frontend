@@ -25,8 +25,12 @@ function Navbar() {
     navigate('#')
   }
 
-  const handleGroupOptions =()=>{
+  const handleAbout = () =>{
     navigate('#')
+  }
+
+  const handleGroupOptions =()=>{
+    navigate('/yourgroups')
   }
 
   const handleLogout = async () => {
@@ -76,8 +80,9 @@ function Navbar() {
               open={Boolean(anchorEl)}
               onClose={handleCloseMenu}
             >
-              <MenuItem onClick={handleGroupOptions}>Tu grupo</MenuItem>
+              <MenuItem onClick={handleGroupOptions}>Tus grupos</MenuItem>
               <MenuItem onClick={handleConfig}>Configuración</MenuItem>
+              <MenuItem onClick={handleAbout}>Sobre FlatFlow</MenuItem>
               <MenuItem onClick={handleLogout}>Cerrar sesión</MenuItem>
               
             </Menu>
