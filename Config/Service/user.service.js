@@ -26,14 +26,38 @@ class UserDataService{
         return http.delete(`api/user`);
     }
 
-    finByUsername(username){
-        return http.get(`api/user?username=${username}`);
+    // findByUsername(username){
+    //     return http.get(`api/user?username=${username}`);
+    // }
+
+    findByUsername(username){
+        return http.get(`api/user/findByUsername?username=${username}`);
     }
+
+    
 
     getGroupsForUser(){
         return http.get('api/getgroups');
     }
 
+    getUsersForGroup(id) {
+        return http.get(`api/getUsersForGroup/${id}`);
+      }
+      
+
+    // addUserToGroup(){
+    //     return http.post('api/addusertogroup')
+    // }
+    addUserToGroup(groupId, userId) {
+        return http.post(`api/addusertogroup/${groupId}/${userId}`);
+      }
+
+    removeUserFromGroup(groupId, userId) {
+        return http.delete(`api/removeuserfromgroup/${groupId}/${userId}`);
+      }
+      
+
 }
 
 export default new UserDataService();
+
