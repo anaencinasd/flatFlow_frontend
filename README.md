@@ -25,41 +25,49 @@ To get the frontend up and running, follow these steps:
    ```bash
    git clone <repository-url>
    cd frontend
-Install Dependencies:
 
-2. **Run the following command to install all the required dependencies for the project:**
+2. **Install Dependencies:**
+
+Run the following command to install all the required dependencies for the project:
 
 ```bash
 Copy code
 npm install
-Development
+```
+
+3. **Development**
 To start the development server, use the following command:
 
 ```bash
 Copy code
 npm run dev
+```
 This will launch the application locally, and you can access it in your browser at http://localhost:3000.
 
-3. **Building for Production**
+4. **Building for Production**
 If you want to build the frontend for production, you can use the following command:
 
 ```bash
 Copy code
 npm run build
+```
+
 This command will generate an optimized production build of the application in the dist directory.
 
-4.**Linting**
+5.**Linting**
 To ensure code quality and consistency, we use ESLint. You can run linting checks with the following command:
 
 ```bash
 Copy code
 npm run lint
-Preview
+```
+6. **Preview**
 You can preview the production build locally using the following command:
 
 ```bash
 Copy code
 npm run preview
+```
 This will serve the optimized production build, allowing you to see how the application will behave in a production environment.
 
 ## Dependencies
@@ -70,9 +78,10 @@ React Router: For handling client-side routing within the application.
 Material-UI (MUI): A popular UI framework for React applications, used for building the user interface components.
 Axios: A promise-based HTTP client for making network requests.
 SweetAlert2: A library for creating custom and responsive popup dialogs.
-Development Dependencies
 
-## These are the development dependencies used in the project:
+## Development Dependencies
+
+These are the development dependencies used in the project:
 
 Vite: A fast development build tool that serves as a development server for the application.
 ESLint: A pluggable linting tool for identifying and fixing problems in JavaScript code.
