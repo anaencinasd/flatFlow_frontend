@@ -19,7 +19,7 @@ To get the frontend up and running, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/anaencinasd/flatFlow_frontend.git
    cd frontend
 
 2. **Install Dependencies:**
@@ -27,7 +27,7 @@ To get the frontend up and running, follow these steps:
 Run the following command to install all the required dependencies for the project:
 
 ```bash
-Copy code
+
 npm install
 ```
 
@@ -35,7 +35,7 @@ npm install
 To start the development server, use the following command:
 
 ```bash
-Copy code
+
 npm run dev
 ```
 This will launch the application locally, and you can access it in your browser at http://localhost:3000.
@@ -44,7 +44,7 @@ This will launch the application locally, and you can access it in your browser 
 If you want to build the frontend for production, you can use the following command:
 
 ```bash
-Copy code
+
 npm run build
 ```
 
@@ -54,14 +54,14 @@ This command will generate an optimized production build of the application in t
 To ensure code quality and consistency, we use ESLint. You can run linting checks with the following command:
 
 ```bash
-Copy code
+
 npm run lint
 ```
 6. **Preview**
 You can preview the production build locally using the following command:
 
 ```bash
-Copy code
+
 npm run preview
 ```
 This will serve the optimized production build, allowing you to see how the application will behave in a production environment.
@@ -81,4 +81,4 @@ These are the development dependencies used in the project:
 
 Vite: A fast development build tool that serves as a development server for the application.
 ESLint: A pluggable linting tool for identifying and fixing problems in JavaScript code.
-TypeScript: Optional, but if you want to use TypeScript, you can add the necessary dependencies.
+
