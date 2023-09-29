@@ -10,11 +10,7 @@ Welcome to the frontend of the **Flat Flow** application! Our mission is to enha
 
 **Flat Flow** is a web platform designed to improve cohabitation in shared living spaces. It empowers users to communicate effectively, organize and assign household tasks, and track shared expenses.
 
-## Prerequisites
 
-Before you begin, make sure you have the following software installed on your machine:
-
-- **Node.js:** Flat Flow is built with JavaScript and requires Node.js. You can download and install it from [nodejs.org](https://nodejs.org/).
 
 ## Getting Started
 
