@@ -5,6 +5,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { Container, Typography } from "@mui/material";
 import GenericForm from "../../Components/Atoms/Form";
 import Header from "../../Components/Atoms/Header";
+import NavBar from "./../../Components/Atoms/NavBar"
 
 function TaskForm() {
   const taskFields = [
@@ -13,7 +14,7 @@ function TaskForm() {
     { label: 'Selecciona el grupo donde estableces la tarea', name: 'id_group', type: 'text' },
     { label: '¿A quién se la asignas?', name: 'id_user', type: 'text' },
     { label: 'Selecciona una categoría', name: 'id_category', type: 'text' },
-    { label: '¿Para cuándo es?', name: 'deadline', type: 'date' },
+    
     
     
   ];
@@ -35,6 +36,7 @@ function TaskForm() {
 
   return (
     <>
+    <NavBar />
     
 <Header 
 title='Agregar tarea'/>

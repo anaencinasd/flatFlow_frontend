@@ -22,6 +22,8 @@ const theme = createTheme({
         },
         divider: '#111c24',
       },
+
+      
       typography: {
         h1: {
           fontFamily: 'DM Mono, monospace',

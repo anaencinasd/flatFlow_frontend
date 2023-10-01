@@ -48,7 +48,7 @@ const RouterItem = () => {
                 <Route path='/register' element={<Register/>}></Route>
                 
 
-                {/* RUTAS A PROTEGER */}
+              
 
                 
                 

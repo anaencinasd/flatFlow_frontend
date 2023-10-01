@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Nav from "../../Components/BottomNavigation";
-import Navbar from "../../Components/Atoms/NavBAr";
+import Navbar from "../../Components/Atoms/NavBar";
 import Header from "../../Components/Atoms/Header";
 import { Container, Typography, Paper, useTheme, Button } from "@mui/material";
 import { useState } from "react";

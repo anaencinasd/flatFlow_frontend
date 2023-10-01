@@ -6,6 +6,8 @@ import Header from '../../Components/Atoms/Header';
 import Nav from '../../Components/BottomNavigation';
 import { Link } from 'react-router-dom';
 import AddIcon from '@mui/icons-material/Add';
+import NavBar from "./../../Components/Atoms/NavBar"
+import Navbar from './../../Components/Atoms/NavBar';
 
 function IndexTask() {
   const [tasks, setTasks] = useState([]);
@@ -24,6 +26,7 @@ function IndexTask() {
 
   return (
     <>
+    <Navbar />
     <Header 
     title='Tareas pendientes'/>
       <Container sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

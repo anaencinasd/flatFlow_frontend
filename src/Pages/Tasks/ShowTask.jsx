@@ -10,6 +10,7 @@ import {
 } from '@mui/material';
 import TaskDataService from './../../../Config/Service/task.service'; 
 import Nav from '../../Components/BottomNavigation';
+import NavBar from "./../../Components/Atoms/NavBar"
 
 export default function ShowTask() {
 
@@ -34,7 +35,7 @@ export default function ShowTask() {
   
   return (
     <>
-    
+    <NavBar />
     <Container>
       <Typography variant="h4" gutterBottom>
         Detalles de la Tarea

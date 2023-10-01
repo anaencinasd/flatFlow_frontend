@@ -4,6 +4,7 @@ import { Container } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import GenericForm from '../../Components/Atoms/Form';
 import GroupDataService from '../../../Config/Service/group.service';
+import Navbar from './../../Components/Atoms/NavBar';
 
 function GroupForm() {
   const groupFields = [
@@ -19,6 +20,8 @@ function GroupForm() {
   };
 
   return (
+    <>
+    <Navbar />
     <Container sx={{ marginTop: '32px', textAlign: 'center' }}>
       <GenericForm
         dataService={GroupDataService}
@@ -27,6 +30,7 @@ function GroupForm() {
         onSuccess={handleGroupFormSuccess}
       />
     </Container>
+    </>
   );
 }
 

@@ -1,4 +1,3 @@
-// AuthService.js
 import http from "./http-common";
 
 class AuthService {
