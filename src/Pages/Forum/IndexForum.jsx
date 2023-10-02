@@ -6,8 +6,7 @@ import Header from '../../Components/Atoms/Header';
 import Nav from '../../Components/BottomNavigation';
 import { Link } from 'react-router-dom';
 import AddIcon from '@mui/icons-material/Add';
-import NavBar from "./../../Components/Atoms/NavBar"
-import Navbar from './../../Components/Atoms/NavBar';
+import Navbar from './../../Components/Atoms/NavBAr';
 
 function IndexForum() {
   const [forum, setforum] = useState([]);
@@ -35,6 +34,7 @@ function IndexForum() {
           key={forum.id}
           dataService={ForumDataService}
           id={forum.id}
+          label="De"
           titleField="title"
           descriptionField="message"
           userField="id_user"

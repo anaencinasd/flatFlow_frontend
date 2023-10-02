@@ -16,6 +16,7 @@ import IndexAllTasks from './../../src/Pages/Tasks/IndexAllTasks';
 import CreateGroup from './../../src/Pages/Group/CreateGroup';
 import IndexGroup from '../../src/Pages/Group/IndexGroup';
 import ShowGroup from '../../src/Pages/Group/ShowGroup';
+import EditTask from '../../src/Pages/Tasks/EditTask';
 
 
 
@@ -38,6 +39,7 @@ const RouterItem = () => {
                 <Route path='/registergroup' element={<RegisterGroup />}></Route>
                 <Route path='/newgroup' element={<CreateGroup />}></Route>
                 <Route path='/yourgroups' element={<IndexGroup />}></Route>
+                <Route path='/edit-task/:id' element={<EditTask />}></Route>
 
             </Route>
                 
