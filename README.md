@@ -10,6 +10,10 @@ Welcome to the frontend of the **Flat Flow** application! The mission is to enha
 
 **Flat Flow** is a web platform designed to improve cohabitation in shared living spaces. It empowers users to communicate effectively, organize and assign household tasks, and track shared expenses.
 
+## Views
+
+[Dashboard](public/dashboard.PNG)
+
 
 
 ## Getting Started
