@@ -4,7 +4,7 @@
 
 ## Overview
 
-Welcome to the frontend of the **Flat Flow** application! Our mission is to enhance the quality of cohabitation in shared living spaces, catering to individuals who live together without familial ties. According to data from the Idealista real estate portal, the average age of individuals sharing a living space is around 34 years. In this project, we address the improvement of cohabitation in existing shared living arrangements. Our goal is to create a tool that enhances established cohabitation through the organization and planning of space usage, routines, and responsibilities.
+Welcome to the frontend of the **Flat Flow** application! The mission is to enhance the quality of cohabitation in shared living spaces, catering to individuals who live together without familial ties. According to data from the Idealista real estate portal, the average age of individuals sharing a living space is around 34 years. In this project, I address the improvement of cohabitation in existing shared living arrangements. My goal is to create a tool that enhances established cohabitation through the organization and planning of space usage, routines, and responsibilities.
 
 ## Project Description
 
@@ -50,14 +50,8 @@ npm run build
 
 This command will generate an optimized production build of the application in the dist directory.
 
-5.**Linting**
-To ensure code quality and consistency, we use ESLint. You can run linting checks with the following command:
-
-```bash
-
-npm run lint
 ```
-6. **Preview**
+5. **Preview**
 You can preview the production build locally using the following command:
 
 ```bash
@@ -80,5 +74,5 @@ SweetAlert2: A library for creating custom and responsive popup dialogs.
 These are the development dependencies used in the project:
 
 Vite: A fast development build tool that serves as a development server for the application.
-ESLint: A pluggable linting tool for identifying and fixing problems in JavaScript code.
+
 
