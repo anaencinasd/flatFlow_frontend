@@ -12,8 +12,17 @@ Welcome to the frontend of the **Flat Flow** application! The mission is to enha
 
 ## Views
 
-[Dashboard](public/dashboard.PNG)
+<img src="public/dashboard.PNG" alt="Dashboard">
+<img src="public/foro.PNG" alt="Forum">
+<img src="public/grupo.PNG" alt="Group">
+<img src="public/landing.PNG" alt="Landing">
+<img src="public/login.PNG" alt="Login">
+<img src="public/dashboard.PNG" alt="Dashboard">
+<img src="public/tareas pendientes.PNG" alt="Tareas Pendientes">
 
+## Data Modeling
+
+<img src="public/modelado de datos.PNG" alt="Modelado de datos">
 
 
 ## Getting Started
